@@ -1,0 +1,3 @@
+go run hillclimb.go PQSPPKXGVGEVBXLLDHTFXJJHNUZHNHCIQQJABCF --rotors I,VI,IV,III --reflector C-thin --position H,A,B,Q --plugboard AB,CD,EF,GH,IJ,KL,MN,OP,QR,ST --rings 1,1,1,16
+go run hillclimb.go JBIBGWEVTLZHWZMKCCRDJGGPSWJUFQPLNDOKQHE --rotors I,VI,IV,III --reflector C-thin --position H,A,B,Q --plugboard AB,CD,EF,GH,IJ,KL,MN,OP,QR,ST --rings 1,1,1,16
+go run hillclimb.go JBIBGWEVTLZHWZMKCCRDJGGPSWJUFQPLNDOKQHE --rotors I,VI,IV,III --reflector C-thin --position P,Q,S,P --plugboard AB,CD,EF,GH,IJ,KL,MN,OP,QR,ST --rings 1,1,1,16
