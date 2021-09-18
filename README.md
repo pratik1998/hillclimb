@@ -10,6 +10,7 @@ Known settings are as follows:
 
 So this engima decrypter gives you the plugboard setting and remaining rotor order and their start position.
 
+## IMPORTANT
 This repository uses the engima simulator code from https://github.com/emedvedev/enigma repository to encrypt message with initial enigma settings. So, most of the code inside the engima directory is from that repository.
 
 # Installation
