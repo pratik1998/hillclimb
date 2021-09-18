@@ -203,8 +203,8 @@ func main() {
 			}
 		}
 
-		fmt.Println(best_rs.leftmost_rotor + " " + best_rs.second_leftmost_rotor + " IV III")
-		fmt.Print(string(enigma.IndexToChar(best_rs.leftmost_position)) + " " + string(enigma.IndexToChar(best_rs.second_leftmost_position)) + " B Q")
+		fmt.Print(best_rs.leftmost_rotor + " " + best_rs.second_leftmost_rotor + " IV III\n")
+		fmt.Print(string(enigma.IndexToChar(best_rs.leftmost_position)) + " " + string(enigma.IndexToChar(best_rs.second_leftmost_position)) + " B Q\n")
 		plugboard_str := ""
 		for i, str := range best_plugs {
 			if i == len(best_plugs)-1 {
@@ -214,7 +214,7 @@ func main() {
 			}
 		}
 		if len(plugboard_str) > 0 {
-			fmt.Print("\n" + plugboard_str)
+			fmt.Print(plugboard_str + "\n")
 		}
 
 		// config := make([]enigma.RotorConfig, len(argv.Rotors.list))
